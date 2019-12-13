@@ -1,0 +1,31 @@
+1) Flask Code and App.py code
+2) Run and check in local
+3) Create AWS account and create EC2 instance, Also download key-pair passkey
+4) Update Security Groups ( ALL traffic and set "anywhere")
+5) Open Puttygen and generate private key using downloaded *.pem file
+6) Open Putty load instance URL and set private key in Auth Section
+7) Opne WinScp , transfer all the files from local computer to Ubuntu Server ( give Username as ubuntu, also in advance section set private key as generated above)
+8) Update the port in Flask code and the same in ubuntu server app.py file
+9) Install the required libraries via putty
+10) Run python3 app.py file
+11) Now Run the instance URL with port in the browser    Ex: ec2-13-232-108-97.ap-south-1.compute.amazonaws.com:5000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Two commands need to run on the ubuntu server while working.
+1) sudo apt-get update && sudo apt-get install python-pip
+
+2) pip install -r requiremnets.txt
+
